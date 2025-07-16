@@ -14,7 +14,7 @@ body {
 .news-container {
     margin: 0 auto;
     padding: 0px;
-    background-color: #030303;
+    height: 100%;
 }
 
 .articles-header {
