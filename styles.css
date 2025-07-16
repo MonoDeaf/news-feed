@@ -209,7 +209,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 20rem;
-    height: 18rem;
+    height: 20rem;
     flex-shrink: 0;
 }
 
