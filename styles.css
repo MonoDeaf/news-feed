@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #030303;
 }
 
 body {
@@ -148,7 +149,6 @@ body {
 
 .news-header {
     text-align: center;
-    margin-bottom: 40px;
     position: relative;
 }
 
@@ -233,13 +233,15 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.05);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
     overflow: hidden;
     cursor: pointer;
+    filter: brightness(0.85);
 }
 
 .article-image:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    filter: brightness(1);
 }
 
 .article-details {
