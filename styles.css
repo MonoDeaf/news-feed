@@ -177,8 +177,6 @@ body {
     gap: 12px;
     overflow-x: auto;
     overflow-y: hidden;
-    scrollbar-width: thin;
-    scrollbar-color: #1e1e1e transparent;
 }
 
 .news-slider::-webkit-scrollbar {
